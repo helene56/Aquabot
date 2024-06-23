@@ -1,5 +1,6 @@
 add_executable(${ProjectName}
     main.c
+    blink.c
 )
 
 target_include_directories(${ProjectName} PRIVATE
@@ -10,6 +11,7 @@ target_link_libraries(${ProjectName}
     pico_stdlib 
     FreeRTOS-Kernel-Heap4
     pico_cyw43_arch_lwip_threadsafe_background
+    hardware_adc
     LWIP_PORT 
     )
 

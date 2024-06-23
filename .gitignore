@@ -3,3 +3,4 @@ build/*
 !build/
 # hiding .vscode
 .vscode/
+guide.txt
