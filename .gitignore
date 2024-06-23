@@ -1,0 +1,5 @@
+# hiding the content of build
+build/*
+!build/
+# hiding .vscode
+.vscode/
